@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "101733929738",
+    "firebase_url": "https://smartfitnesscenter-d66ad.firebaseio.com",
+    "project_id": "smartfitnesscenter-d66ad",
+    "storage_bucket": "smartfitnesscenter-d66ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101733929738:android:de17ddf4f628f1a0",
+        "android_client_info": {
+          "package_name": "com.example.zhiyue.smartfitnesscenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101733929738-dtljdgfkeeq1rj5e5mpl6tcn3solv215.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zhiyue.smartfitnesscenter",
+            "certificate_hash": "35ca75c08a0b164729278cde759507edeebb826a"
+          }
+        },
+        {
+          "client_id": "101733929738-luu8p7t7j51dcq069lnj96buk6sp2p5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zhiyue.smartfitnesscenter",
+            "certificate_hash": "5567b9df465746e160913a0596bf7c4944dcf308"
+          }
+        },
+        {
+          "client_id": "101733929738-dmponu97bsl8ukm0m7953lk3jnlsc5fo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFKcSVXVM1DPw_QJs7Ii1tfSmNBd9oB2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101733929738-dmponu97bsl8ukm0m7953lk3jnlsc5fo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

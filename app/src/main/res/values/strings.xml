@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Smart Fitness Center</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="fontPreview">Choose the BMR formula you want:</string>
+    <string name="orgFormula">original Harris–Benedict equations</string>
+    <string name="formula">Harris–Benedict equations in 1984</string>
+    <string name="newFormula">Harris–Benedict equations in 1990</string>
+</resources>

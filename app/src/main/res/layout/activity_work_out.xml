@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhiyue.smartfitnesscenter.WorkOutActivity"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/etxRound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="time for each round(seconds)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etxRest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="rest time between two rounds(seconds)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etxTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Total Working out time(minutes)"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start!!!!" />
+
+    <Button
+        android:id="@+id/btnBackFW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To BMR" />
+
+    <TextView
+        android:id="@+id/txvWorkTimmer"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.10"
+        android:text=""
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txvRestTimmer"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.11"
+        android:text=""
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txvTotalTimmer"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.11"
+        android:text=""
+        android:textSize="24sp" />
+
+</LinearLayout>
